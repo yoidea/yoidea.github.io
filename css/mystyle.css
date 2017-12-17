@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+}
+.block {
+	min-height: 100%;
+}
+.content-box {
+	padding-top: 64px;
+}
+.moving-btn {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+/* myname */
+.myname {
+	padding-top: 4em;
+}
+.myname p {
+	font-size: 1.7em;
+	letter-spacing: 0.5em;
+	margin: 0;
+}
+.myname h1 {
+	letter-spacing: 0.3em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+/* mychip */
+@media (min-width: 768px) {
+	.mychip {
+		height: 64px;
+		font-size: 26px;
+		line-height: 64px;
+		padding: 0 24px;
+		border-radius: 32px;
+		margin-bottom: 10px;
+		margin-right: 10px
+	}
+}
