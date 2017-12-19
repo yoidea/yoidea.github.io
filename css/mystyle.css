@@ -12,16 +12,17 @@
 
 /*タイムライン*/
 .timeline-date {
+	font-size: 1.5em;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
 	width: 4em;
 	height: 4em;
-	padding-top: 1.2em;
-	font-size: 1.5em;
 	border: solid 0.2em #1de9b6;
 	border-radius: 50%;
-	text-align: center;
 }
 .timeline-content {
-	height: 4em;
-	padding-top: 1.3em;
 	font-size: 1.5em;
+	display: table-cell;
+	vertical-align: middle;
 }
