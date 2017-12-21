@@ -33,7 +33,13 @@
 	border-radius: 50%;
 }
 .timeline-content {
-	font-size: 1.5em;
 	display: table-cell;
 	vertical-align: middle;
+}
+.timeline-content > p.sub {
+	margin-bottom: 0;
+}
+.timeline-content > p.main {
+	margin-top: 0;
+	font-size: 1.5em;
 }
