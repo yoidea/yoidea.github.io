@@ -25,6 +25,9 @@ body {
 	width: 100vw;
 }
 
+.btn {
+	margin-bottom: 1.5em;
+}
 
 .logo {
 	width: 30%;
@@ -34,12 +37,12 @@ body {
 
 /*名前*/
 .name > h1 {
-	font-size: 5em;
+	font-size: 4em;
 	margin: 0;
 	padding: 0;
 }
 .name > p {
-	font-size: 2em;
+	font-size: 1.7em;
 	letter-spacing: 0.5em;
 	margin: 0;
 	padding: 0;
