@@ -10,6 +10,13 @@ a:active {
 }
 
 /*トップページ*/
+html {
+	overflow: auto;
+}
+body {
+	overflow: hidden;
+	min-width: 100%;
+}
 .cover {
 	text-align: center;
 	display: table-cell;
@@ -17,6 +24,7 @@ a:active {
 	height: 100vh;
 	width: 100vw;
 }
+
 
 .logo {
 	width: 30%;
