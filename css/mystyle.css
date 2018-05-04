@@ -51,8 +51,11 @@ a:active {
 /*見出し*/
 .section {
 	padding: 0.25em 0.5em;
-	background: transparent;
 	border-left: solid 0.5em #26a69a;
+}
+.subsection {
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 /*タイムライン*/
